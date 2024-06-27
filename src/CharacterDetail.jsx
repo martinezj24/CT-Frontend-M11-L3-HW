@@ -30,7 +30,7 @@ const CharacterDetail = ({ characterId }) => {
     }, [characterId]);
 
     if (!character) {
-        return <div>Please select a character to view details.</div>;
+        return <div>Please click Load Button to view more characters</div>;
     }
 
     return (
